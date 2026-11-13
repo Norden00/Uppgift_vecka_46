@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elias Nordenberg</title>
+  <!-- Link to the font, in this case Jost. It's the most like Futura -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Student · Södertörn University</p>
+      <h1>Elias <em>Nordenberg</em></h1>
+      <p class="intro">I'm a Student at Södertörn University. I find music fun and like to play around with it!</p>
+    </header>
+
+    <section>
+      <h2>Work</h2>
+      <ul class="work">
+        <li><span>Sound in motion</span><small>software</small></li>
+      </ul>
+      <p>Sound in motion is a live audio program where we play an Akai MPK Mini and every key and pad triggers sound and pixel-art visuals in the browser, built with p5.js and Tone.js.</p>
+      <img class="shot" src="sound-in-motion.png" alt="Screenshot of Sound in motion: the Arcade scene with loop, scene and settings controls">
+    </section>
+  </main>
+
+  <!-- Link to js (pixi) -->
+  <script src="https://cdn.jsdelivr.net/npm/pixi.js@8.6.6/dist/pixi.min.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
